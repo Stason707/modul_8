@@ -1,6 +1,6 @@
 <h1 align="center">Игра "Угадай число"</h1>
 
-![Игральные кости](/Kosti.png)
+![Игральные кости](/images/Kosti.png)
 
 <h2 align="center">Содержание</h2>
 

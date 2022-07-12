@@ -1,4 +1,3 @@
-
 let inputMax = document.querySelector('.inputMax');
 let inputMin = document.querySelector('.inputMin');
 const buttonIn = document.querySelector('.buttonIn');
@@ -62,9 +61,9 @@ function ToText(numberText) {
 
                 let d = numberText % n.value;
                 if (d > 0) {
-                    return ' ' + n.str + ' ' + ToText(d);
+                    return 'Это' + ' ' + n.str + ' ' + ToText(d) + '?';
                 } else {
-                    return ' ' + ' ' + n.str;
+                    return 'Это' + ' ' + ' ' + n.str + '?';
                 }
 
             }
@@ -165,7 +164,6 @@ buttonIn.onclick = function () {
 
             numberText.innerText = ToText(answerNumber);
             answerField.innerText = answerFirst;
-            
         }
     })
 }
